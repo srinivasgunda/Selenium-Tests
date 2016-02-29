@@ -1,0 +1,31 @@
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 >> Content-Length: 47
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 >> Host: 127.0.0.1:7056
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 >> Connection: Keep-Alive
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_67)
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 >> Accept-Encoding: gzip,deflate
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "POST /hub/session/0d06acbd-4f2c-406b-a6b2-d810033c4f67/element/%7Bfffe99a8-0e12-44b4-a011-cd6198120ffc%7D/click HTTP/1.1[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "Content-Length: 47[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "Host: 127.0.0.1:7056[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "Connection: Keep-Alive[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_67)[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 >> "{"id":"{fffe99a8-0e12-44b4-a011-cd6198120ffc}"}"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "HTTP/1.1 200 OK[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "connection: close[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "content-length: 98[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "server: httpd.js[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "date: Tue, 16 Feb 2016 13:44:07 GMT[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "[\r][\n]"
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 << HTTP/1.1 200 OK
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 << content-type: application/json; charset=UTF-8
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 << connection: close
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 << content-length: 98
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 << server: httpd.js
+2016-02-16 -- DEBUG      org.apache.http.headers - http-outgoing-13 << date: Tue, 16 Feb 2016 13:44:07 GMT
+2016-02-16 -- DEBUG      org.apache.http.wire - http-outgoing-13 << "{"name":"clickElement","sessionId":"0d06acbd-4f2c-406b-a6b2-d810033c4f67","status":0,"value":"ok"}"
+2016-02-16 -- DEBUG      org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-13: Close connection
+2016-02-16 -- DEBUG      org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2016-02-16 -- DEBUG      org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 13][route: {}->http://127.0.0.1:7056][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
